@@ -2,20 +2,27 @@ class MathUtilities {
 
 
     add(baseValue, valueToAdd){
-        return -1;
+       let a = baseValue + valueToAdd 
+        return (a);
     }
 
     subtract(baseValue, valueToAdd){
-        return -1;
+        let s = baseValue - valueToAdd
+        return (s);
     }
 
     divide(baseValue, valueToAdd){
-        return -1;
+         let d = (baseValue/valueToAdd)
+        return (d);
     }
 
     multiply(baseValue, valueToAdd){
-        return -1;
+        let m = baseValue * valueToAdd
+        return(m);
     }
+
 }
+
+
 
 module.exports = MathUtilities;
