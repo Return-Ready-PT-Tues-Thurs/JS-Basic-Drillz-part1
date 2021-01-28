@@ -1,36 +1,59 @@
 class StrangerStrings {
 
     getHelloWorld(){
-        return null;
+        return "Hello World";
     }
 
     concatenation(firstSegment, secondSegment){
-        return null;
+        return firstSegment + secondSegment;
     }
 
     getPrefix(input){
-        return null;
+        return  input.substring(0,3);
     }
 
     getSuffix(input){
-        return null;
+        return input.substring(3,6);
     }
 
-    getMiddleCharacter(input){
-        return null;
+    getMiddleCharacter(input) {
+       //find lenght of the string
+
+        
+       let midd = input.length;
+
+       // divide it by 2 
+        let ans =  midd/2;
+
+       // get the letter which corresponds to the answer 
+
+        return input.charAt(ans);
+        
     }
 
     getFirstWord(input){
-        return null;
+        return input.split(" ")[0];
     }
     
     getSecondWord(spaceDelimnatedInput){
-        return null;
+    
+        return spaceDelimnatedInput.split(" ")[1];
     }
     
-    reverse(input){
-        return null;
-    }
+    //    reverse(input){
+     
+    //    return input.split("").reverse().join("");
+    //    } 
+
+       reverse(input){
+     
+        return input.split("").reverse().join("").split(" ").reverse().join(" ");
+        } 
+ 
+
+
+
+
 }
 
 module.exports = StrangerStrings;
