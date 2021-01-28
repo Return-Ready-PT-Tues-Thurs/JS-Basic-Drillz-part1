@@ -1,21 +1,25 @@
 class MathUtilities {
 
 
-    add(baseValue, valueToAdd){
-        return -1;
-    }
+    add(num1, num2){
+        let addCalc = num1 + num2;
+        return (addCalc);
+      }
 
-    subtract(baseValue, valueToAdd){
-        return -1;
-    }
+    subtract(num1, num2){
+        let subCalc = num1 - num2;
+        return (subCalc);
+      }
 
-    divide(baseValue, valueToAdd){
-        return -1;
-    }
+    divide(num1, num2){
+        let divCalc = num1 / num2;
+        return (divCalc);
+      }
 
-    multiply(baseValue, valueToAdd){
-        return -1;
-    }
+    multiply(num1, num2){
+        let multCalc = num1 * num2;
+        return (multCalc);
+      }
 }
 
 module.exports = MathUtilities;
